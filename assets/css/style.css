@@ -138,7 +138,6 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     margin-left: 0;
     max-height: 100%;
     max-width: 100%;
-    margin-left: 0;
     padding: 0;
 }
 
@@ -172,10 +171,13 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 /*--------Lookbook----*/
 
 .lookbook-images {
-    margin-top: 10px;
-    margin-bottom: 10px; 
+     margin-bottom: 40px;
 }
 
+.fashion-image {
+    max-height: 120px;
+    max-width: 120px;
+}
 /*-------Media Queries------*/
 
 @media(min-width: 992px) {
