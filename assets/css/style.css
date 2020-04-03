@@ -174,13 +174,24 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
      margin-bottom: 40px;
 }
 
+.img-thumbnail {
+      border-radius: 1px;
+      border: 	0;
+      display: flex;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0
+}
+
 .fashion-image {
-    max-height: 120px;
-    max-width: 120px;
+    max-height: 240px;
+    max-width: 240px;
 }
 /*-------Media Queries------*/
 
-@media(min-width: 992px) {
+@media(max-width: 992px) {
     .navbar-brand {
     font-family: "Oswald", sans-serif;
     font-weight: 100;
@@ -192,4 +203,18 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     .charity p {
         margin-left: 20px;
         padding-left: 20px;
+}
+/*------Code from http://jsfiddle.net/devnull/qyroxexv/---*/
+   .order   {
+       display: flex;
+       flex-flow: column;
+   }
+
+   .second {
+       order:2;
+   }
+
+   .first {
+       order:1;
+   }
 }
