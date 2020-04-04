@@ -189,6 +189,37 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     max-height: 240px;
     max-width: 240px;
 }
+
+/*-------Events------*/
+
+.events-container {
+    height: 100vh;
+/*-----Code taken from CSS Tricks-----*/
+background: url("../images/woman-graffiti.jpg") no-repeat bottom left; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+/*------End of Code from CSS Tricks---*/
+/*------Bootstrap4 Code-----*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*-----End of Bootstrap4 Code-----*/
+  position: relative;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+}
+
 /*-------Media Queries------*/
 
 @media(max-width: 992px) {
