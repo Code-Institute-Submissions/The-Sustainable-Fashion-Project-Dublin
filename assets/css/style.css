@@ -240,6 +240,35 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
 .card-title {
     font-family: "Oswald", sans-serif;
 }
+
+/*-------Contact------*/
+
+.contact-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.btn-wine {
+     background-color: #2b0915;
+     color: #fff;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     border-radius: 7px;
+}
+
+.social h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social i {
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+    padding: 10px;
+}
+
 /*-------Footer------*/
 
 .footer-container {
