@@ -99,10 +99,6 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     text-align: center;
 }
 
-.subtile h3 {
-    padding-top: 20px;
-}
-
 .slowdown,
 .habits  {
     text-align: justify;
@@ -119,12 +115,25 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 
 .pull-right {
-    padding-right: 20px;
-    margin-right: 25px;
+    padding: 0;
+    margin-right: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
+    border: 0;
 }
 
+.btn-facts {
+    background-color: #48041c;
+    color: #fff5ee;
+}
+
+.btn-facts:hover,
+.btn-facts:active,
+.btn-facts:focus,
+.btn-facts:active:focus {
+    background-color: 	#ff1493;
+    border-color:	#ff1493;
+}
 
 /*-------Images-----*/
 
