@@ -102,7 +102,8 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     padding-top: 30px;
     padding-left: 15px;
     text-align: center;
-    color: #48041c;
+    color: #ff1493;
+    font-weight: 600;
 }
 
 .slowdown,
@@ -251,18 +252,23 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
 
 .jumbotron-title-contact {
     color: #48041c;
+    font-family: "Oswald", sans-serif;
 }
 
 .contact p {
     color: #48041c;
+    padding-top: 30px;
+    font-size: 20px;
 }
 
 .btn-wine {
      background-color: #ff1493;
+     border-color: #ff1493;
      color: #fff5ee;
      margin-bottom: 50px;
      margin-top: 50px;
      border-radius: 7px;
+
 }
 
 .social h3 {
@@ -285,7 +291,7 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
 .footer-container {
     font-family: "Poppins", sans-serif;
     background-color: #48041c;
-    color: #fff; 
+    color: #fff5ee; 
     padding-top: 7px;   
 }
 
