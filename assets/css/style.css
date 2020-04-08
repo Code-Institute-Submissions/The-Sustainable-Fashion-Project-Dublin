@@ -41,6 +41,10 @@ body {
     background-color: #fff5ee;
 }
 
+.container-wrapper-contact {
+    background-color: #fff5ee;
+}
+
 /*-------Welcome------*/
 
 .welcome-container {
@@ -90,6 +94,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #48041c;
 }
 
 .subtitle {
@@ -97,21 +102,19 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     padding-top: 30px;
     padding-left: 15px;
     text-align: center;
+    color: #48041c;
 }
 
 .slowdown,
 .habits  {
-    text-align: justify;
+    text-align: center;
     padding-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #48041c;
 }
 
-.slowdown  {
-    padding-right: 20px;
-}
 
-.habits {
-    padding-left: 20px; 
-}
 
 
 .pull-right {
@@ -125,6 +128,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .btn-facts {
     background-color: #48041c;
     color: #fff5ee;
+    border-radius: 7px;
 }
 
 .btn-facts:hover,
@@ -241,13 +245,21 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
 /*-------Contact------*/
 
 .contact-container {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.jumbotron-title-contact {
+    color: #48041c;
+}
+
+.contact p {
+    color: #48041c;
 }
 
 .btn-wine {
-     background-color: #2b0915;
-     color: #fff;
+     background-color: #ff1493;
+     color: #fff5ee;
      margin-bottom: 50px;
      margin-top: 50px;
      border-radius: 7px;
@@ -256,6 +268,7 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
 .social h3 {
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #48041c;
 }
 
 .social i {
@@ -264,13 +277,14 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
     width: 40px;
     margin: 15px;
     padding: 10px;
+    color: #ff1493;
 }
 
 /*-------Footer------*/
 
 .footer-container {
     font-family: "Poppins", sans-serif;
-    background-color: #2b0915;
+    background-color: #48041c;
     color: #fff; 
     padding-top: 7px;   
 }
@@ -285,9 +299,5 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
     text-align: center;
     }
 
-    .slowdown p,
-    .charity p {
-        margin-left: 20px;
-        padding-left: 20px;
-}
+
 }
