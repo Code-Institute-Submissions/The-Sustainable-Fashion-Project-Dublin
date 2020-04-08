@@ -8,7 +8,8 @@ body {
 
 .navbar-brand {
     font-family: "Oswald", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
+    color: #fff5ee;
 }
 
 .navbar {
@@ -16,6 +17,7 @@ body {
     z-index: 1;
     width: 100%;
     border: 0;
+    background-color: #48041c;
 }
 
  .navbar .navbar-toggler {
@@ -23,16 +25,18 @@ body {
  }
 
  .navbar .nav-link {
-     font-family: "Oswald", sans-serif
+     font-family: "Oswald", sans-serif; 
+     color: #fff5ee;
+     font-weight: 300;
  }
 
 /*-------Colors------*/
-/*--
+
 .bg-color-facts {
-    background-color: 	#734e5b;
-    color: #ccc7c7;
+    background-color:	#fff5ee;
+    color: 
 }
-*/
+
 /*-------Welcome------*/
 
 .welcome-container {
@@ -63,7 +67,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 }
 
 .jumbotron-title {
-    color: #fff;
+    color: #fff5ee;
     font-family: "Oswald", sans-serif;
 }
 
