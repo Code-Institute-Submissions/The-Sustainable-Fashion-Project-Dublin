@@ -96,15 +96,15 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 .page-title-facts {
     font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    margin-top: 15px;
+    font-weight: 700;
+    margin-top: 25px;
     margin-bottom: 15px;
-    color: #48041c;
+    color: #ff1493;
 }
 
 .subtitle {
     font-family: "Oswald", sans-serif;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 15px;
     text-align: center;
     color: #ff1493;
@@ -114,14 +114,35 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .slowdown,
 .habits  {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 7px;
     color: #48041c;
+    font-size: 14px;
 }
 
+.slowdown em {
+    font-weight: 500;
+}
 
+.slowdown-second {
+    color: #48041c;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
 
+.thefacts ul {
+    margin-bottom: 7px;
+}
+
+.thefacts li {
+    color: #48041c;
+    font-size: 14px;
+}
 
 .pull-right {
     padding: 0;
@@ -137,14 +158,6 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     border-radius: 7px;
 }
 
-.btn-facts:hover,
-.btn-facts:active,
-.btn-facts:focus,
-.btn-facts:active:focus {
-    background-color: 	#48041c;
-    border-color:	#48041c;
-    color: #fff5ee;
-}
 
 /*-------Images-----*/
 
@@ -228,13 +241,8 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
 
 .event {
     color: #ffffff;
-    width: 100%;
-    height: 100%;
 }
 
-.event-card {
-    
-}
 
 .card {
     display: flex;
