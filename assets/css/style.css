@@ -17,13 +17,14 @@ body {
     position: fixed;
     z-index: 1;
     width: 100%;
-    border: 0;
-    background-color: #48041c;
+    border-bottom: 3px solid #ff1493;
 }
 
  .navbar .navbar-toggler {
      border: 0;
  }
+
+
 
  .navbar .nav-link {
      font-family: "Oswald", sans-serif; 
@@ -32,6 +33,10 @@ body {
  }
 
 /*-------Colors------*/
+
+.bg-color-navbar {
+    background-color: #48041c;
+}
 
 .bg-color-facts {
     background-color:	#fff5ee;
@@ -296,6 +301,7 @@ background: url("../images/woman-graffiti.jpg") no-repeat bottom left;
     background-color: #48041c;
     color: #fff5ee; 
     padding-top: 7px;   
+    border-top: 3px solid #ff1493;
 }
 
 /*-------Media Queries------*/
