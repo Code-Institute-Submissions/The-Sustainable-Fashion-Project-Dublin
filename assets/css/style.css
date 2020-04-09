@@ -35,7 +35,7 @@ body {
 /*-------Colors------*/
 
 .bg-color-navbar {
-    background-color: #48041c;
+    background-color: #5b062d;
 }
 
 .bg-color-facts {
@@ -100,6 +100,8 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     margin-top: 25px;
     margin-bottom: 15px;
     color: #ff1493;
+
+    
 }
 
 .subtitle {
@@ -135,10 +137,12 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .thefacts span {
     font-size: 14px;
     font-weight: 600;
+    color: #48041c;
 }
 
 .thefacts ul {
     margin-bottom: 7px;
+    color: #48041c;
 }
 
 .thefacts li {
