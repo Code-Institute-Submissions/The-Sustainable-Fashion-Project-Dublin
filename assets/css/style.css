@@ -96,7 +96,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 .page-title-facts {
     font-family: "Oswald", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     margin-top: 25px;
     margin-bottom: 15px;
     color: #ff1493;
@@ -115,7 +115,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 .slowdown,
 .habits  {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .slowdown em {
