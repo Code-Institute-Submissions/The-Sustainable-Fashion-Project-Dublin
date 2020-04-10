@@ -97,11 +97,9 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .page-title-facts {
     font-family: "Oswald", sans-serif;
     font-weight: 800;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    color: #ff1493;
-
-    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ff1493;    
 }
 
 .subtitle {
@@ -111,6 +109,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     text-align: center;
     color: #ff1493;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .slowdown,
@@ -158,7 +157,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .pull-right {
     padding: 0;
     margin-right: 30px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 15px;
     border: 0;
 }
