@@ -20,7 +20,7 @@
 <body>
 	<header>
     <!--Navbar-->
-		<!------Bootstrap Navbar used-->
+		<!--Bootstrap Navbar, bg-color class used-->
 		<nav class="navbar navbar-expand-sm navbar-dark bg-color-navbar">
 			<a class="navbar-brand" href="#">The Sustainable Fashion Project Dublin</a>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,19 +50,20 @@
 
 
     <!--Welcome-->
-	<!-----Bootstrap grid, container, jumbotron, text-center class used-->
+	<!--Bootstrap grid, container, jumbotron, text-center class used-->
 	<div class="container-fluid welcome-container" id="home">
 		<div class="opaque-overlay"> </div>
 		<div class="row">
 			<div class="col">
-				<section class="jumotron text-center welcome">
+				<section class="jumotron text-center">
 					<h1 class="jumbotron-title">Welcome to The Sustainable Fashion Project Dublin</h1>
-					<p>Want to make more sustainable fashion choices but not sure where to start? <br>
+					<p class="intro">Want to make more sustainable fashion choices but not sure where to start? <br>
                     Look no further!</p>
 				</section>
 			</div>
 		</div>
 	</div>
+
 
 <!--The Facts-->
 <!--Bootstrap grid, container, bg-color, text-center, button, pull-right classes used-->
@@ -86,15 +87,14 @@
                         of carbon emissions – the same as driving 65,000 kilometres in a car. Buying just one white cotton shirt 
                         produces the same amount of emissions as driving 56 kilometres in a car.
 						</p>
-                        <ul><span>Globally, the Fast Fashion Industry:</span>
+                        <ul>Globally, the Fast Fashion Industry:
                              <li>produces ~1 billion garments annually and emits 1.2 billion tons of CO2 equivalent per year</li>
                              <li>is second only to oil as the world’s largest polluter</li>
                              <li>is responsible for producing 20% of global wastewater</li>
                         </ul>
-						<button class="pull-right"><a class="btn btn-facts" href="https://7billionfor7seas.com/fast-fashion-facts/" target="_blank">Learn More</a></button>
+						<a class="pull-right btn btn-facts" href="https://7billionfor7seas.com/fast-fashion-facts/" target="_blank">Learn More</a>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-md-6 order-sm-2">
 						<img src="assets/images/habits-neon.jpg" alt="neon habits to be made sign" class="vintage-image">
@@ -187,16 +187,18 @@
 		</section>
 	</div>
 
+
 <!--Lookbook-->
 <!--Bootstrap grid, container, bg-color, text-center, img-thumbnail classes. Hover.css grow class used-->
-	<div class="container-fluid lookbook-container" id="lookbook">
+	<div class="container-fluid" id="lookbook">
 		<section>
 			<div class="row">
-				<div class="col lookbook-heading bg-color-lookbook">
+				<div class="col bg-color-lookbook">
 					<h2 class="page-title-facts text-center">Lookbook</h2>
-					<p>Check out our March Lookbook below!
-					 <br>Some of the amazing looks we created with pieces sourced from Vintage and Charity shops
-						around Dublin</p>
+					<p class="lookbook-intro text-center">Check out our March Lookbook below!
+                     <br>Some of the amazing looks we created with pieces sourced from Vintage and Charity shops
+						around Dublin
+					 </p>
 				</div>
 			</div>
 			<div class="row lookbook-images-a">
@@ -244,8 +246,9 @@
 		</section>
 	</div>
 
+
 <!--Events-->
-	<!----Bootstrap grid, cards, container, text-center, mx-auto, button classes used-->
+	<!--Bootstrap grid, cards, container, text-center, mx-auto, button classes used-->
 	<div class="container-fluid events-container" id="events">
 		<div class="opaque-overlay"> </div>
 		<section class="event">
@@ -296,8 +299,8 @@
 
 
 
-<!----Contact-->
-<!----Bootstrap grid, container, jumbotron, modal, text-center, buttons, list-inline classes used-->
+<!--Contact-->
+<!--Bootstrap grid, container, jumbotron, modal, form, text-center, buttons, list-inline classes used-->
 	<div class="container-fluid contact-container container-wrapper-contact" id="contact">
 		<section class="jumotron text-center contact">
 			<h1 class="jumbotron-title-contact">Sign Up to Our Newsletter!</h1>
@@ -338,8 +341,8 @@
         </section>
     </div>
 	
-
-
+<!--Modal-->
+<!--Bootstrap modal, form used-->
 	<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -367,7 +370,7 @@
 	</div>
 
 <!--Footer-->
-<!--Bootstrap grid and container classes used-->
+<!--Bootstrap grid and container, text-center, small classes used-->
 	<div class="conatianer-fluid footer-container">
 		<footer>
 			<div class="row">

@@ -76,12 +76,20 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.35);
 }
 
 .jumbotron-title {
     color: #fff5ee;
     font-family: "Oswald", sans-serif;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+
+.intro {
+    color: #fff5ee;
+    font-weight: 700;
+    font-size: 19px;
 }
 
 /*------The Facts---*/
@@ -126,7 +134,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .slowdown,
 .habits,
 .slowdown-second {
-    color: #48041c;
+    color: #5b062d;
     font-size: 14px;
     text-align: center;
     margin-right: 20px;
@@ -138,34 +146,23 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     color: #ff1493;
 }
 
-.thefacts span {
-    font-size: 14px;
-    font-weight: 600;
-    color: #48041c;
-}
 
 .thefacts ul {
-    margin-bottom: 7px;
-    color: #48041c;
+    margin-bottom: 0px; 
+    color: #5b062d;
+    font-weight: 500;
 }
 
 .thefacts li {
-    color: #48041c;
+    color: #5b062d;
     font-size: 14px;
-}
-
-.pull-right {
-    padding: 0;
-    margin-right: 30px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    border: 0;
 }
 
 .btn-facts {
     background-color: #ff1493;
     color: #fff5ee;
     border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 
@@ -187,7 +184,9 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 /*--------Lookbook----*/
 
-
+.lookbook-intro {
+    color:#5b062d;
+}
 
 .lookbook-images-a,
 .lookbook-images-b,
@@ -283,12 +282,12 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 }
 
 .jumbotron-title-contact {
-    color: #48041c;
+    color: #5b062d;
     font-family: "Oswald", sans-serif;
 }
 
 .contact p {
-    color: #48041c;
+    color: #5b062d;
     padding-top: 30px;
     font-size: 20px;
 }
@@ -306,7 +305,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .social h3 {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #48041c;
+    color: #5b062d;
 }
 
 .social i {
@@ -322,7 +321,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 .footer-container {
     font-family: "Poppins", sans-serif;
-    background-color: #48041c;
+    background-color: #5b062d;
     color: #fff5ee; 
     padding-top: 7px;   
     border-top: 3px solid #ff1493;
