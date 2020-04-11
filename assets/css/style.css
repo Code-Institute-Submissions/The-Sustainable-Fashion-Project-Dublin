@@ -65,6 +65,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
   justify-content: center;
 /*-----End of Bootstrap4 Code-----*/
   position: relative;
+  border-bottom: 3px solid #ff1493;
 }
 
 .opaque-overlay {
@@ -81,6 +82,16 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     font-family: "Oswald", sans-serif;
     padding-bottom: 15px;
     font-weight: 800;
+    margin-bottom: 0;
+}
+
+.divider-pink {
+    width: 75px;
+  height: 0;
+  border: 3px solid #ff1493;
+  margin-bottom: 10px;
+  margin-top: 7px;
+  border-radius: 3px;
 }
 
 .intro {
@@ -161,6 +172,7 @@ h6 {
     color: #fff5ee;
     border-radius: 7px;
     margin-bottom: 10px;
+    margin-right: 15px;
 }
 
 
@@ -201,6 +213,7 @@ h6 {
 
 .lookbook-images-a {
     padding-top: 35px;
+    border-top: 3px solid #ff1493;
 }
 
 .lookbook-images-b {
@@ -210,6 +223,7 @@ h6 {
 
 .lookbook-images-c {
     padding-bottom: 35px;
+    border-bottom: 3px solid #ff1493;
 }
 
 .img-thumbnail {
@@ -240,23 +254,25 @@ h6 {
   justify-content: center;
 /*-----End of Bootstrap4 Code-----*/
    position: relative;
+   border-bottom: 3px solid #ff1493;
 }
 
 .event-heading {
     color: #fff5ee;
     font-family: "Oswald", sans-serif;
-    padding-top: 10px;
+    padding-top: 35px;
     padding-left: 15px;
     text-align: center;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 12px;
 }
 
 .event h4 {
     color: #fff5ee;
     font-weight: 500;
     padding-bottom: 25px;
-    padding-top: 15px;
+    padding-top: 0px;
+    font-size: 22px;
 }
 
 .card {
@@ -352,15 +368,13 @@ h6 {
      border-radius: 7px;
      margin-top: 15px;
      margin-right: 3px;
-     display: inline-block;
 }
 
 .btn-signup {
     background-color: #ff1493;
      color: #fff5ee;
      border-radius: 7px;
-     margin-top: 15px;
-     display: inline-block:
+     margin-top: 15px;  
 }
 
 /*-------Footer------*/

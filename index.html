@@ -50,13 +50,14 @@
 
 
     <!--Welcome-->
-	<!--Bootstrap grid, container, jumbotron, text-center class used-->
+	<!--Bootstrap grid, container, jumbotron, text-center, mx-auto class used-->
 	<div class="container-fluid welcome-container" id="home">
 		<div class="opaque-overlay"> </div>
 		<div class="row">
 			<div class="col">
 				<section class="jumotron text-center">
 					<h1 class="jumbotron-title">Welcome to The Sustainable Fashion Project Dublin</h1>
+                    <div class="divider-pink mx-auto"></div>
 					<p class="intro">Want to make more sustainable fashion choices but not sure where to start? <br>
                     Look no further!</p>
 				</section>
@@ -66,7 +67,7 @@
 
 
 <!--The Facts-->
-<!--Bootstrap grid, container, bg-color, text-center, button, mx-auto, d-md-none classes used-->
+<!--Bootstrap grid, container, bg-color, text-center, button, mx-auto, pull-right, d-md-none classes used-->
 	<div class="container-fluid facts-container" id="facts">
 		<section class="thefacts bg-color-facts">
 			<div class="row">
@@ -93,7 +94,7 @@
                              <li>is second only to oil as the world’s largest polluter</li>
                              <li>is responsible for producing 20% of global wastewater</li>
                         </ul>
-						<a class="btn btn-facts" href="https://7billionfor7seas.com/fast-fashion-facts/" target="_blank">Learn More</a>
+						<a class="btn btn-facts pull-right" href="https://7billionfor7seas.com/fast-fashion-facts/" target="_blank">Learn More</a>
 					</div>
 				</div>
 				<div class="row">
@@ -190,7 +191,7 @@
 
 
 <!--Lookbook-->
-<!--Bootstrap grid, container, bg-color, text-center, img-thumbnail classes, Hover.css grow class used-->
+<!--Bootstrap grid, container, bg-color, text-center, img-thumbnail classes, d-none, d-sm-block, Hover.css grow class used-->
 	<div class="container-fluid" id="lookbook">
 		<section>
 			<div class="row">
@@ -231,16 +232,16 @@
 				        </div>
 			  </div>
 				    <div class="row lookbook-images-c">
-						<div class="col-md-3">
+						<div class="col-md-3 d-none d-sm-block">
 							<img src="assets/images/girl-in-rose-coat.jpg" alt="girl wearing a floral coat" class="hvr-grow img-thumbnail">
 				        </div>
-						  <div class="col-md-3">
+						  <div class="col-md-3 d-none d-sm-block">
 							  <img src="assets/images/girl-in-white-top-skirt.jpg" alt="girl wearing white top and skirt" class="hvr-grow img-thumbnail">
 				          </div>
-						    <div class="col-md-3">
+						    <div class="col-md-3 d-none d-sm-block">
 								<img src="assets/images/woman-in-black-dress.jpg" alt="girl wearing black skirt and hat" class="hvr-grow img-thumbnail">
 				            </div>
-							  <div class="col-md-3">
+							  <div class="col-md-3 d-none d-sm-block">
 								   <img src="assets/images/girl-in-red-skirt.jpg" alt="girl wearing red skirt" class="hvr-grow img-thumbnail">
 				              </div>
 				    </div>
@@ -256,6 +257,7 @@
 			<div class="row">
 				<div class="col">
 					<h2 class="event-heading text-center">Get Involved!</h2>
+                    <div class="divider-pink mx-auto"></div>
 					<h4 class="text-center"> Check out some of our amazing events below!</h4>
 				</div>
 			</div>
@@ -343,7 +345,7 @@
     </div>
 	
 <!--Modal-->
-<!--Bootstrap modal, form used-->
+<!--Bootstrap modal, form, pull-right class used-->
 	<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
