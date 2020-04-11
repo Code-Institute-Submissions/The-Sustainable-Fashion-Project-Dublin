@@ -100,7 +100,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     margin-right:0;
     padding-left: 0;
     padding-right: 0;
-}
+}   
 
 .page-title-facts {
     font-family: "Oswald", sans-serif;
@@ -193,35 +193,31 @@ h6 {
 .lookbook-images-b,
 .lookbook-images-c {
      margin-bottom: 0;
-     
+     background-color: #48041c;
 }
 
 .lookbook-images-a {
     padding-top: 35px;
-    background-color: #48041c;
 }
 
 .lookbook-images-b {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #48041c;
-}
+  }
 
 .lookbook-images-c {
     padding-bottom: 35px;
-    background-color: #48041c;
 }
 
 .img-thumbnail {
       border-radius: 1px;
-      border: 	0;
+      border: 	3px solid #ff1493;
       display: flex;
-      left: 0;
       max-height: 100%;
       max-width: 100%;
       margin-left: 0;
       margin-bottom: 5px;
-      background-color: #ff1493;
+      padding: 0;
 }
 
 
@@ -304,7 +300,6 @@ h6 {
 
 .btn-pink {
      background-color: #ff1493;
-     border-color: #ff1493;
      color: #fff5ee;
      margin-bottom: 50px;
      margin-top: 50px;
@@ -320,7 +315,7 @@ h6 {
 .social i {
     font-size: 40px;
     height: 40px;
-    width: 40px;
+    width: 40px; 
     margin: 15px;
     padding: 10px;
     color: #ff1493;
