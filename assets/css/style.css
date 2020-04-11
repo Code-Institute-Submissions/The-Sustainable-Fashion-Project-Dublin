@@ -24,8 +24,6 @@ body {
      border: 0;
  }
 
-
-
  .navbar .nav-link {
      font-family: "Oswald", sans-serif; 
      color: #fff5ee;
@@ -69,14 +67,13 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
   position: relative;
 }
 
-
 .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.35);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .jumbotron-title {
@@ -130,7 +127,6 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     color: #ff1493;
 }
 
-
 .slowdown,
 .habits,
 .slowdown-second {
@@ -160,7 +156,6 @@ h6 {
     font-size: 14px;
 }
 
-
 .btn-facts {
     background-color: #ff1493;
     color: #fff5ee;
@@ -168,6 +163,14 @@ h6 {
     margin-bottom: 10px;
 }
 
+
+.divider {
+  width: 75px;
+  height: 0;
+  border: 3px solid #5b062d;
+  margin-top: 20px;
+  border-radius: 3px;
+}
 
 /*-------Images-----*/
 
@@ -224,7 +227,6 @@ h6 {
 /*-------Events------*/
 
 .events-container {
-   
 /*-----Code taken from CSS Tricks-----*/
   background: url("../images/woman-graffiti.jpg") no-repeat bottom left; 
   -webkit-background-size: cover;
@@ -301,8 +303,8 @@ h6 {
 .btn-pink {
      background-color: #ff1493;
      color: #fff5ee;
-     margin-bottom: 50px;
-     margin-top: 50px;
+     margin-bottom: 40px;
+     margin-top: 40px;
      border-radius: 7px;
 }
 
@@ -319,6 +321,46 @@ h6 {
     margin: 15px;
     padding: 10px;
     color: #ff1493;
+}
+
+/*-------Modal------*/
+
+.modal-header {
+    background-color: #fff5ee;
+    border-bottom: 1px solid #5b062d;
+}
+
+.modal-title {
+    color: #ff1493;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.modal-body {
+    color: #5b062d;
+    font-weight: 500;
+    background-color: #fff5ee;
+}
+
+.form-text {
+    color: #ff1493;
+}
+
+.btn-close {
+     background-color: #810849;
+     color: #fff5ee;
+     border-radius: 7px;
+     margin-top: 15px;
+     margin-right: 3px;
+     display: inline-block;
+}
+
+.btn-signup {
+    background-color: #ff1493;
+     color: #fff5ee;
+     border-radius: 7px;
+     margin-top: 15px;
+     display: inline-block:
 }
 
 /*-------Footer------*/
@@ -340,6 +382,4 @@ h6 {
     font-size: 18px;
     text-align: center;
     }
-
-
 }
