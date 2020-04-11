@@ -146,17 +146,20 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     color: #ff1493;
 }
 
+h6 {
+    color: #5b062d;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 10px;
+}
 
 .thefacts ul {
     margin-bottom: 0px; 
     color: #5b062d;
     font-weight: 500;
-}
-
-.thefacts li {
-    color: #5b062d;
     font-size: 14px;
 }
+
 
 .btn-facts {
     background-color: #ff1493;
@@ -176,8 +179,6 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     display: flex;
     max-height: 100%;
     max-width: 100%;
-    margin-left: 0;
-    padding: 0;
     border: 3px solid #ff1493;
 }
 
@@ -190,7 +191,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 .lookbook-images-a,
 .lookbook-images-b,
-.lookbook-images-c, {
+.lookbook-images-c {
      margin-bottom: 0;
      
 }
@@ -243,6 +244,15 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
    position: relative;
 }
 
+.event-heading {
+    color: #fff5ee;
+    font-family: "Oswald", sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0;
+}
 
 .event h4 {
     color: #fff5ee;
@@ -257,7 +267,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 
 .card-img-top {
     border-radius: 4px;
-    border: 2px solid #ff1493;
+    border: 3px solid #ff1493;
     text-align: center;
 }
 
@@ -292,14 +302,13 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     font-size: 20px;
 }
 
-.btn-wine {
+.btn-pink {
      background-color: #ff1493;
      border-color: #ff1493;
      color: #fff5ee;
      margin-bottom: 50px;
      margin-top: 50px;
      border-radius: 7px;
-
 }
 
 .social h3 {
