@@ -131,6 +131,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
 .slowdown,
 .habits  {
     padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .slowdown em {
