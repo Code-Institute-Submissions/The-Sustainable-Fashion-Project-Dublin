@@ -74,7 +74,7 @@ background: url("../images/fur-coats.jpg") no-repeat bottom left;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.35);
 }
 
 .jumbotron-title {
