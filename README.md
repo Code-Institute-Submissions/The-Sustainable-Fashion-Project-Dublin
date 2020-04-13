@@ -6,7 +6,7 @@
 ---
 
 ## **UX**
----
+
 #### **Target Demographic**
 The target demographic of this website includes but is not limited to:
  - those with an interest in Fashion
@@ -53,6 +53,7 @@ As part of the design process wireframes were created for Desktop, Tablet and Mo
 #### **Mobile**
 ![Imgur](https://i.imgur.com/togKaFk.png)
 
+---
 ## **Features**
 The navigation bar is fixed to the top of the page with links to each section, so each part of the page can be easily accessed using the navigation links from anywhere on the site.
 
@@ -133,13 +134,78 @@ Manual Testing:
 - Navigation links tested to ensure they worked and that they linked to the correct part of the page
 - Links to external sites & pages tested to ensure they worked correctly and opened in new tabs.
 - Sign Up call to action opened modal and email address was required in order to sign up
+- Ran site on Chrome, Mozilla Firefox & Internet Explorer.
 
 ---
 
-### **Bugs**
+### **Issues and Resolutions**
+The following bugs were identified and rectified during the build process.
 
+- Background images not displaying:
+   - File path was incorrect
+
+- Collapse icon on navbar not displaying on mobile screen sizes:    
+   - Although the icon was there and clickable the burger icon was not displaying.
+   - Resolved by adding the ```navbar-dark```  to the navbar class.
+
+-  When navbar dropdown menu was activated and link clicked, the menu didn't collapse up again:
+   - Resolved by adding ```data-toggle="collapse" data-target=".navbar-collapse.show"``` to each list item
+
+- Cards in the Events section pushing down below background image and into  sections below it on mobile screen sizes:
+   - Resolved by removing set ```height: 100vh``` on background image
+
+- The Facts section not displaying correctly at tablet screen size:
+   - Resolved by changing column width from ```col-md-6``` to ```col-lg-6```
+
+- Images and paragraphs in The Facts section not displaying in the desired order:
+   - Resolved by adding Bootstrap **order class** - ```order-lg-2``` & ```order-lg-1``` to affected images and paragraphs
+---
 ## **Deployment**
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/aineon/The-Sustainable-Fashion-Project-Dublin)
+1. From the menu items near the top of the page, select **Settings**.
+2. Scroll down to the **GitHub Pages** section.
+3. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+4. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+ 
+
+#### **How to run this project locally**
+
+To clone this project from GitHub:
+
+1. Under the repository name, click "Clone or download".
+2. In the Clone with HTTPs section, copy the clone URL for the repository. 
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type `git clone` and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/aineon/The-Sustainable-Fashion-Project-Dublin.git
+```
+6. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+
 ---
 ## **Credits**
+
+### **Content**
+- In **Did You Know?** paragraph:
+   - Fast Fashion definition taken form [Good on You](https://goodonyou.eco/what-is-fast-fashion/) website.
+   - Ireland facts paragraph taken from [Oxfam Ireland](https://www.oxfamireland.org/blog/impact-fast-fashion-our-climate) website.
+   - Global fast fashion facts taken from [7billion for 7seas](https://7billionfor7seas.com/fast-fashion-facts/) website.
+
+- Text in **Vintage** paragraph:
+   - taken from [Readers Digest](https://www.readersdigest.co.uk/lifestyle/fashion-beauty/5-reasons-to-shop-vintage) website.
+
+### **Media**
+- All images taken from:
+   - [Unsplash](https://unsplash.com/)
+
+### **Acknowledgements**
+I would like to thank everyone on the code institute slack channels. 
+
+- My mentor 
 ---
 ## **Disclaimer**
+All images and content on this website is for educational purposes only
