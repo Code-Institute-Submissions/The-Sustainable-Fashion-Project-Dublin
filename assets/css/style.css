@@ -309,11 +309,12 @@ h6 {
 .jumbotron-title-contact {
     color: #5b062d;
     font-family: "Oswald", sans-serif;
+    padding-bottom: 20px;
 }
 
 .contact p {
     color: #5b062d;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 20px;
 }
 
