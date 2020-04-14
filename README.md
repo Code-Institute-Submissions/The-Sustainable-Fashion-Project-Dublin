@@ -17,7 +17,7 @@ the impact it is having on the planet.
 - Highlight and raise awareness of the environmental and ethical impact of Fast Fashion
 - To promote sustainability in the fashion industry
 - To encourage users to think about impact of the choices they make when buying clothes
-- To encourage users to change the way they shop to lessen the impat on the planet
+- To encourage users to change the way they shop to lessen the impact on the planet
 - To offer tangible alternatives to users 
 
 ---
@@ -29,21 +29,21 @@ The target demographic of this website includes but is not limited to:
  - those with an interest in Fashion
  - those who are socially and enviromentally conscious
  - those who are interested in learning more about sustainable fashion
- - those interested in learning more about fast Fashion
+ - those interested in learning more about Fast Fashion
  - those who are would like to make more sustainable fashion choices
  - those who are looking for ways and ideas on how they can change their shopping habits
 
-Users of this site are searching for:
+**Users of this site are searching for:**
  - Clear and easily accessible information on fast fashion
  - Clear and easily accessible information on sustainable fashion
  - Alternative shopping choices to High Street stores/Fast Fashion Brands
  - Real world locations they can shop sustainably
 
-This site is best equipped to help them because:
+**This site is best equipped to help them because:**
 - Easy to navigate
 - Aesthetically pleasing
 - Visually interesting 
-- Doesn't overload the user with too much information
+- Offers clear and concise information without overloading the user
 - Gives them the option to learn more with links to relevant sites
 
 #### **Client Stories**
@@ -106,8 +106,8 @@ List of events users of the site would have an interest in attending.
 Option to book places and get more information about the events.
 
 #### **Sign Up**
-Call to action to sign up to the sites newsletter 
-clicking the SignUp button which deploys a modal with the required attribute for the email address input.
+Call to action to sign up to the sites newsletter. 
+Clicking the SignUp button deploys a modal with the required attribute for the email address input.
 
 Links to social media pages.
 
@@ -124,7 +124,7 @@ Contains copyright information.
     * owners to review submissions before they are posted to the site 
     * owners to set criteria for submissons - location, suitability, where it was purchased etc.
 
-- A curated directory of sites, articles and resources users of the site would be interested in.
+- A curated directory of sites, articles, blogs and resources users of the site would be interested in.
 - Submissions from hosts of relevant events that will be promoted on the site.
 - A News section that can be updated easily and regularly by owners.
 ---
@@ -138,6 +138,8 @@ Contains copyright information.
 - [Gitpod](https://gitpod.io/) - IDE for local development
 - [Github](https://github.com/) - version control
 - [Github Pages](https://pages.github.com/) - for deployment of the website
+
+- [HTML Formatter](https://htmlformatter.com/) - used to format HTML code
 ---
 ## **Testing**
 Testing was carried out throughout the build process to ensure site was responsive at relevant breakpoints using [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools).
@@ -175,7 +177,7 @@ The following bugs were identified and rectified during the build process.
    - Resolved by changing column width from ```col-md-6``` to ```col-lg-6```
 
 - Images and paragraphs in The Facts section not displaying in the desired order:
-   - Resolved by adding Bootstrap **order class** - ```order-lg-2``` & ```order-lg-1``` to affected images and paragraphs
+   - Resolved by adding Bootstrap **order class** - ```order-lg-2``` & ```order-lg-1``` to relevant images and paragraphs
 
 - Heading in Welcome section not rendering correctly on Internet Explorer:
    - Not yet resolved
@@ -225,7 +227,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ### **Acknowledgements**
 I would like to thank everyone on the code institute slack channels. 
 
-- My mentor 
+My mentor [Adegbenga Adeye](https://github.com/deye9)
 ---
 ## **Disclaimer**
 All images and content on this website is for educational purposes only
