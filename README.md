@@ -3,6 +3,23 @@
 ![Imgur](https://i.imgur.com/0KtzvQh.png)
 
 ## **Aim**
+The recent rise in conversation surrounding the environmental impact 
+and ethical business practices of the fashion industry has given rise to new 
+terminolgy such as "Fast Fashion" and "Sustainable Fashion" to describe different aspects 
+and practices of the fashion industry.
+
+The aim of this site to help people gain a better understanding of what these
+terms mean, the effects of Fast Fashion and how Sustainable Fashion can help to counteract 
+the impact it is having on the planet.
+
+#### **Business Goals**
+- Define Fast Fashion and give users a better understanding of what it means
+- Highlight and raise awareness of the environmental and ethical impact of Fast Fashion
+- To promote sustainability in the fashion industry
+- To encourage users to think about impact of the choices they make when buying clothes
+- To encourage users to change the way they shop to lessen the impat on the planet
+- To offer tangible alternatives to users 
+
 ---
 
 ## **UX**
@@ -76,7 +93,7 @@ Includes links to various charity shops and their locations.
 An image to draw attention and a paragraph on the benefits of shopping in vintage shops. 
 Includes links to vintage shops in Dublin.
 
-#### ** Repair & Upcycle**
+#### **Repair & Upcycle**
 An image to draw attention and a paragraph extolling the benefits of repairing/upcycling clothes.
 Includes a link to sewing tutorials for beginners.
 
@@ -135,7 +152,7 @@ Manual Testing:
 - Links to external sites & pages tested to ensure they worked correctly and opened in new tabs.
 - Sign Up call to action opened modal and email address was required in order to sign up
 - Ran site on Chrome, Mozilla Firefox & Internet Explorer.
-
+    
 ---
 
 ### **Issues and Resolutions**
@@ -159,6 +176,9 @@ The following bugs were identified and rectified during the build process.
 
 - Images and paragraphs in The Facts section not displaying in the desired order:
    - Resolved by adding Bootstrap **order class** - ```order-lg-2``` & ```order-lg-1``` to affected images and paragraphs
+
+- Heading in Welcome section not rendering correctly on Internet Explorer:
+   - Not yet resolved
 ---
 ## **Deployment**
 
