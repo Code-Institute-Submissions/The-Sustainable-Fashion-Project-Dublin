@@ -53,7 +53,7 @@ body {
 .welcome-container {
 height: 100vh;
 /*-----Code taken from CSS Tricks-----*/
-background: url("../images/fur-coats.jpg") no-repeat bottom left; 
+background: url("../images/fur-coats1.jpg") no-repeat bottom left; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -243,7 +243,7 @@ h6 {
 
 .events-container {
 /*-----Code taken from CSS Tricks-----*/
-  background: url("../images/woman-graffiti.jpg") no-repeat bottom left; 
+  background: url("../images/woman-graffiti1.jpg") no-repeat bottom left; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
