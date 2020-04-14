@@ -51,21 +51,23 @@ body {
 /*-------Welcome------*/
 
 .welcome-container {
-height: 100vh;
-/*-----Code taken from CSS Tricks-----*/
-background: url("../images/fur-coats1.jpg") no-repeat bottom left; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-/*------End of Code from CSS Tricks---*/
-/*------Bootstrap4 Code-----*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-/*-----End of Bootstrap4 Code-----*/
-  position: relative;
-  border-bottom: 3px solid #ff1493;
+    height: 100vh;
+/*--Code taken from CSS Tricks--*/
+    background: url("../images/fur-coats1.jpg") no-repeat bottom left; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*--End of Code from CSS Tricks--*/
+
+/*--Bootstrap4 Code--*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*--End of Bootstrap4 Code--*/
+
+    position: relative;
+    border-bottom: 3px solid #ff1493;
 }
 
 .opaque-overlay {
@@ -80,24 +82,25 @@ background: url("../images/fur-coats1.jpg") no-repeat bottom left;
 .jumbotron-title {
     color: #fff5ee;
     font-family: "Oswald", sans-serif;
-    padding-bottom: 15px;
+    padding-bottom: 10px; 
     font-weight: 800;
     margin-bottom: 0;
 }
 
 .divider-pink {
     width: 75px;
-  height: 0;
-  border: 3px solid #ff1493;
-  margin-bottom: 10px;
-  margin-top: 7px;
-  border-radius: 3px;
+    height: 0;
+    border: 3px solid #ff1493;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border-radius: 3px;
 }
 
 .intro {
     color: #fff5ee;
     font-weight: 700;
     font-size: 19px;
+    padding-top: 10px;
 }
 
 /*------The Facts---*/
@@ -228,34 +231,37 @@ h6 {
 }
 
 .img-thumbnail {
-      border-radius: 1px;
-      border: 	3px solid #ff1493;
-      display: flex;
-      max-height: 100%;
-      max-width: 100%;
-      margin-left: 0;
-      margin-bottom: 5px;
-      padding: 0;
+    border-radius: 1px;
+    border: 	3px solid #ff1493;
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 5px;
+    padding: 0;
 }
 
 
 /*-------Events------*/
 
 .events-container {
-/*-----Code taken from CSS Tricks-----*/
-  background: url("../images/woman-graffiti1.jpg") no-repeat bottom left; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-/*------End of Code from CSS Tricks---*/
-/*------Bootstrap4 Code-----*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-/*-----End of Bootstrap4 Code-----*/
-   position: relative;
-   border-bottom: 3px solid #ff1493;
+
+/*--Code taken from CSS Tricks--*/
+    background: url("../images/woman-graffiti1.jpg") no-repeat bottom left; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*--End of Code from CSS Tricks--*/
+
+/*--Bootstrap4 Code--*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*--End of Bootstrap4 Code--*/
+   
+    position: relative;
+    border-bottom: 3px solid #ff1493;
 }
 
 .event-heading {
@@ -275,6 +281,8 @@ h6 {
     padding-top: 0px;
     font-size: 22px;
 }
+
+/*--Cards--*/
 
 .card {
     background: transparent;
@@ -319,11 +327,11 @@ h6 {
 }
 
 .btn-pink {
-     background-color: #ff1493;
-     color: #fff5ee;
-     margin-bottom: 40px;
-     margin-top: 40px;
-     border-radius: 7px;
+    background-color: #ff1493;
+    color: #fff5ee;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 7px;
 }
 
 .social h3 {
@@ -365,18 +373,18 @@ h6 {
 }
 
 .btn-close {
-     background-color: #810849;
-     color: #fff5ee;
-     border-radius: 7px;
-     margin-top: 15px;
-     margin-right: 3px;
+    background-color: #810849;
+    color: #fff5ee;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-right: 3px;
 }
 
 .btn-signup {
     background-color: #ff1493;
-     color: #fff5ee;
-     border-radius: 7px;
-     margin-top: 15px;  
+    color: #fff5ee;
+    border-radius: 7px;
+    margin-top: 15px;  
 }
 
 /*-------Footer------*/

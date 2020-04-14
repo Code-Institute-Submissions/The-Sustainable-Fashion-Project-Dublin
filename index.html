@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://use.fontawesome.com/0cd8b7f464.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Sustainable Fashion Project Dublin</title>
 </head>
@@ -17,9 +19,9 @@
         <!--Bootstrap Navbar, bg-color, ml-auto class used-->
         <nav class="navbar navbar-expand-sm navbar-dark bg-color-navbar">
             <a class="navbar-brand" href="#">The Sustainable Fashion Project Dublin</a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"> </span>
-            </button>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -51,20 +53,20 @@
         </nav>
     </header>
 
-    <!--Welcome-->
+    <!--Welcome/Home-->
     <!--Bootstrap grid, container, jumbotron, text-center, mx-auto class used-->
     <div class="container-fluid welcome-container" id="home">
         <div class="opaque-overlay"> </div>
-        <div class="row">
-            <div class="col">
-                <section class="jumotron text-center">
-                    <h1 class="jumbotron-title">Welcome to The Sustainable Fashion Project Dublin</h1>
-                    <div class="divider-pink mx-auto"></div>
-                    <p class="intro">Want to make more sustainable fashion choices but not sure where to start?
-                        <br> Look no further!</p>
-                </section>
+            <div class="row">
+                <div class="col">
+                    <section class="jumotron text-center">
+                        <h1 class="jumbotron-title">Welcome to The Sustainable Fashion Project Dublin</h1>
+                            <div class="divider-pink mx-auto"></div>
+                                <p class="intro">Want to make more sustainable fashion choices but not sure where to start?
+                                    <br> Look no further!</p>
+                    </section>
+                </div>
             </div>
-        </div>
     </div>
 
     <!--The Facts-->
@@ -78,92 +80,116 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/images/slow-down-neon.jpg" alt="slow down neon sign above girl" class="slowdown-image">
+                    <img src="assets/images/slow-down-neon1.jpg" alt="slow down neon sign above girl" class="slowdown-image">
                 </div>
-                <div class="col-lg-6">
-                    <h4 class="subtitle">Did You Know?</h4>
-                    <p class="slowdown">Fast Fashion is a term we’ve been hearing a lot lately but what does it actually mean?
-                        <br><em>“Fast fashion can be defined as cheap, trendy clothing, that samples ideas from the catwalk or 
-                            celebrity culture and turns them into garments in high street stores at breakneck speed.” </em>–<a href="https://goodonyou.eco/what-is-fast-fashion/" target="_blank"> Good on You</a></p>
-                    <p class="slowdown-second">In Ireland alone, half a tonne of clothing is dumped into landfill every minute. That amount produces over 12 tonnes of carbon emissions – the same as driving 65,000 kilometres in a car. Buying just one white cotton shirt produces the same amount of emissions as driving 56 kilometres in a car.
-                    </p>
-                    <h6>Globally, the Fast Fashion Industry:</h6>
-                    <ul>
-                        <li>produces ~1 billion garments annually and emits 1.2 billion tons of CO2 equivalent per year
-                        </li>
-                        <li>is second only to oil as the world’s largest polluter</li>
-                        <li>is responsible for producing 20% of global wastewater</li>
-                    </ul>
-                    <a class="btn btn-facts pull-right" href="https://7billionfor7seas.com/fast-fashion-facts/" target="_blank">Learn More</a>
-                </div>
-            </div>
+                    <div class="col-lg-6">
+                        <h4 class="subtitle">Did You Know?</h4>
+                            <p class="slowdown">Fast Fashion is a term we’ve been hearing a lot lately but what does it actually mean?
+                                <br><em>“Fast fashion can be defined as cheap, trendy clothing, that samples ideas from the catwalk or 
+                                celebrity culture and turns them into garments in high street stores at breakneck speed.” </em>–
+                                <a href="https://goodonyou.eco/what-is-fast-fashion/" target="_blank"> Good on You</a>
+                            </p>
+                            <p class="slowdown-second">In Ireland alone, half a tonne of clothing is dumped into landfill every minute. 
+                                That amount produces over 12 tonnes of carbon emissions – the same as driving 65,000 kilometres in a car. 
+                                Buying just one white cotton shirt produces the same amount of emissions as driving 56 kilometres in a car.
+                            </p>
+                               <h6>Globally, the Fast Fashion Industry:</h6>
+                                   <ul>
+                                       <li>produces ~1 billion garments annually and emits 1.2 billion tons of CO2 equivalent per year
+                                       </li>
+                                       <li>is second only to oil as the world’s largest polluter</li>
+                                       <li>is responsible for producing 20% of global wastewater</li>
+                                   </ul>
+                                <a class="btn btn-facts pull-right" href="https://7billionfor7seas.com/fast-fashion-facts/" target="_blank">Learn More</a>
+                    </div>
+             </div>
+
             <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/habits-neon.jpg" alt="neon habits to be made sign" class="vintage-image">
+                    <img src="assets/images/habits-neon1.jpg" alt="neon habits to be made sign" class="vintage-image">
                 </div>
-                <div class="col-lg-6 order-lg-1">
-                    <h4 class="subtitle">So What Can We Do?</h4>
-                    <p class="habits">As consumers there are plenty of changes, big and small, we can make to our shopping habits to make them more sustainable and reduce our impact on the environment. It’s not only about where we shop but also how we shop. Reducing the amount of new items we buy by shopping in vintage and charity shops or buying second hand either in store or online from sites like <a href="https://www.ebay.ie/" target="_blank">Ebay</a> or
-                        <a href="https://poshmark.com/" target="_blank">Poshmark</a>. Using sites like <a href="https://againwithlove.com/" target="_blank">Again With
-									Love</a> to sell items you no longer want or use. Borrow it from sites like
-                        <a href="https://www.renttherunway.com/" target="_blank">Rent the Runway</a> for that statement piece you’re probably only going to wear once anyway! Mend, tailor, upcycle your old favourites. Go to swap shops or even get a group of your mates together and host your own! And if you do buy new, consider choosing ethical or eco brands.
-                        <br> Check out the <a href="https://www.fashionrevolution.org/about/transparency/" target="_blank">Fashion
-									Transparency Index</a>, it reviews and ranks 200 of the biggest global fashion and apparel brands and retailers according to how much information they disclose about their suppliers, supply chain policies and practices, and social and environmental impact.
-                    </p>
+                    <div class="col-lg-6 order-lg-1">
+                        <h4 class="subtitle">So What Can We Do?</h4>
+                            <p class="habits">As consumers there are plenty of changes, big and small, 
+                                we can make to our shopping habits to make them more sustainable and reduce our impact on the 
+                                environment. It’s not only about where we shop but also how we shop. Reducing the amount of new items we buy 
+                                by shopping in vintage and charity shops or buying second hand either in store or online from sites like 
+                                <a href="https://www.ebay.ie/" target="_blank">Ebay</a> or
+                                <a href="https://poshmark.com/" target="_blank">Poshmark</a>. Using sites like 
+                                <a href="https://againwithlove.com/" target="_blank">Again With Love</a>
+								to sell items you no longer want or use. Borrow it from sites like
+                                <a href="https://www.renttherunway.com/" target="_blank">Rent the Runway</a> 
+                                for that statement piece you’re probably only going to wear once anyway! Mend, tailor, upcycle your old 
+                                favourites. Go to swap shops or even get a group of your mates together and host your own! And if you do buy new, 
+                                consider choosing ethical or eco brands.
+                                <br> Check out the 
+                                <a href="https://www.fashionrevolution.org/about/transparency/" target="_blank">Fashion Transparency Index</a>,
+								it reviews and ranks 200 of the biggest global fashion and apparel brands and retailers according to how much 
+                                information they disclose about their suppliers, supply chain policies and practices, and social and environmental impact.
+                            </p>
                 </div>
             </div>
-
+    
+    <!--Charity Shops-->
             <div class="row" id="charity">
                 <div class="col-lg-6">
-                    <img src="assets/images/amazing-fashion-neon-sign.jpg" alt="amazing fashion amazing prices neon sign" class="amazingfashion-image">
+                    <img src="assets/images/amazing-fashion-neon-signs.jpg" alt="amazing fashion amazing prices neon sign" class="amazingfashion-image">
                 </div>
-                <div class="col-lg-6">
-                    <h4 class="subtitle">Charity Shops</h4>
-                    <p class="habits">At a local level, charity shops are a great shout. Not only are you getting some seriously great pieces at ridiculously discounted prices, you’re also helping some amazing causes while you’re at it! And Dublin is full of them. From Rathmines down through Camden St, Aungier St and George’s Street and Capel St. on the Northside you’ll find <a href="https://www.oxfamireland.org/shops" target="_blank">Oxfam</a>, <a href="https://www.enableireland.ie/get-involved/retail-shops/shops" target="_blank">Enable Ireland</a>,
-                        <a href="https://www.svp.ie/shops" target="_blank">St Vincent de Paul</a>, <a href="https://www.cancer.ie/ways-to-help/shop/irish-cancer-society-charity-shops" target="_blank">Irish Cancer Society</a>,
-                        <a href="https://www.simon.ie/default.aspx" target="_blank">Simon Community</a> & <a href="https://www.ageaction.ie/how-you-can-help/our-charity-stores-showroom-and-stock-collection-service" target="_blank">Age Action</a> - to name but a few!
-                        <br> (Click the links to find your local store.)
-                        <br> And of course it’s not just clothes, there’s shoes, handbags, accessories, jewellery, vinyl, books and all kinds of wonderful things.
-                        <br>Now you can even bag some charity shop bargins from the comfort of your couch with <a href="https://www.thriftify.ie/" target="_blank">Thriftify</a>.
-                        <br> Don’t forget to return the favour and donate your unwanted clothes to your local charity shop!
-                    </p>
-                </div>
+                    <div class="col-lg-6">
+                        <h4 class="subtitle">Charity Shops</h4>
+                        <p class="habits">At a local level, charity shops are a great shout. Not only are you getting some seriously great pieces 
+                           at ridiculously discounted prices, you’re also helping some amazing causes while you’re at it! And Dublin is full of them. 
+                           From Rathmines down through Camden St, Aungier St and George’s Street and Capel St. on the Northside you’ll find 
+                           <a href="https://www.oxfamireland.org/shops" target="_blank">Oxfam</a>, 
+                           <a href="https://www.enableireland.ie/get-involved/retail-shops/shops" target="_blank">Enable Ireland</a>,
+                           <a href="https://www.svp.ie/shops" target="_blank">St Vincent de Paul</a>, 
+                           <a href="https://www.cancer.ie/ways-to-help/shop/irish-cancer-society-charity-shops" target="_blank">Irish Cancer Society</a>,
+                           <a href="https://www.simon.ie/default.aspx" target="_blank">Simon Community</a> & 
+                           <a href="https://www.ageaction.ie/how-you-can-help/our-charity-stores-showroom-and-stock-collection-service" target="_blank">Age Action</a> - to name but a few!
+                           <br> (Click the links to find your local store.)
+                           <br> And of course it’s not just clothes, there’s shoes, handbags, accessories, jewellery, vinyl, books and all kinds of wonderful things.
+                           <br>Now you can even bag some charity shop bargins from the comfort of your couch with <a href="https://www.thriftify.ie/" target="_blank">Thriftify</a>.
+                           <br> Don’t forget to return the favour and donate your unwanted clothes to your local charity shop!
+                        </p>
+                    </div>
             </div>
 
+    <!--Vintage-->
             <div class="row" id="vintage">
                 <div class="col-lg-6 order-lg-2">
-                    <img src="assets/images/neon-vintage-sign.jpg" alt="vintage neon sign" class="amazingfashion-image">
+                    <img src="assets/images/neon-vintage-sign1.jpg" alt="vintage neon sign" class="amazingfashion-image">
                 </div>
-                <div class="col-lg-6 order-lg-1">
-                    <h4 class="subtitle">Shop Vintage</h4>
-                    <p class="habits">Vintage often gets a bad reputation as fussy florals and bad-smelling faux fur but the reality is completely different— in the age of fast fashion, it can be the key to identifying your own unique style. Vintage shops are great places to find truly unique and beautiful pieces that you definitely won’t find on the high street For the most part, the "make do and mend" mentality of years past means that vintage clothing is often of a much higher quality that the high street, which often skimps on production value in order to provide a low pricepoint. From lovingly-handmade pieces to reinforced denim and leather, lots of fabric benefits from the natural wearing process and can look even better for a bit of age.
-                        <br>Just remember not to put too much stock in the number on the label—vintage sizing can differ from modern ones so always try a piece on to ensure it meets your needs.
-                        <br>If you’re around Dublin check out <a href="https://www.facebook.com/LucysLoungeDublin/" target="_blank">Lucy’s
-											Lounge</a>,
-                        <a href="https://www.facebook.com/The-Harlequin-502069575532/" target="_blank">The Harlequin</a>,
-                        <a href="https://www.shopninecrows.com/" target="_blank">Nine Crows Vintage</a>,
-                        <a href="https://www.dublinvintagefactory.com/" target="_blank">Dublin Vintage
-											Factory</a>,
-                        <a href="https://www.facebook.com/Second-Abbey-179879158840904/" target="_blank">Second Abbey</a>, <a href="https://www.facebook.com/2x2collectables" target="_blank">Dublin
-											Vintage Shop</a>,
-                        <br>And perhaps the greatest benefit of shopping vintage, you definitely won’t need to worry about somebody else turning up anywhere in the same outfit!
-                    </p>
+                    <div class="col-lg-6 order-lg-1">
+                        <h4 class="subtitle">Shop Vintage</h4>
+                            <p class="habits">Vintage often gets a bad reputation as fussy florals and bad-smelling faux fur but the reality is completely different— in the age of fast fashion, it can be the key to identifying your own unique style. Vintage shops are great places to find truly unique and beautiful pieces that you definitely won’t find on the high street For the most part, the "make do and mend" mentality of years past means that vintage clothing is often of a much higher quality that the high street, which often skimps on production value in order to provide a low pricepoint. From lovingly-handmade pieces to reinforced denim and leather, lots of fabric benefits from the natural wearing process and can look even better for a bit of age.
+                                <br>Just remember not to put too much stock in the number on the label—vintage sizing can differ from modern ones so always try a piece on to ensure it meets your needs.
+                                <br>If you’re around Dublin check out 
+                                <a href="https://www.facebook.com/LucysLoungeDublin/" target="_blank">Lucy’s Lounge</a>,
+                                <a href="https://www.facebook.com/The-Harlequin-502069575532/" target="_blank">The Harlequin</a>,
+                                <a href="https://www.shopninecrows.com/" target="_blank">Nine Crows Vintage</a>,
+                                <a href="https://www.dublinvintagefactory.com/" target="_blank">Dublin Vintage Factory</a>,
+							    <a href="https://www.facebook.com/Second-Abbey-179879158840904/" target="_blank">Second Abbey</a>,				
+                                <a href="https://www.facebook.com/2x2collectables" target="_blank">Dublin Vintage Shop</a>,
+											
+                               <br>And perhaps the greatest benefit of shopping vintage, you definitely won’t need to worry about somebody else turning up anywhere in the same outfit!
+                            </p>
+                    </div>
                 </div>
-            </div>
 
+    <!--Repair-->
             <div class="row" id="repair">
                 <div class="col-lg-6">
-                    <img src="assets/images/repair-centre-sign.jpg" alt="neon repair centre sign" class="repair-image">
+                    <img src="assets/images/repair-centre-sign1.jpg" alt="neon repair centre sign" class="repair-image">
                 </div>
                 <div class="col-lg-6">
                     <h4 class="subtitle">Repair and Upcycle</h4>
-                    <p class="habits">No matter how much care we take of our clothes wear they will eventually succumb to wear and tear. Repairing and upcycling our clothes can significantly extend the life of our favourite pieces while reducing the impact on the environment and also our wallets! Not to mention giving our favourite pieces a new lease of life!
-                        <br>It can be as simple as cutting an old pair of jeans into shorts to completely reworking a dress into something totally different, getting your favourite shoes re-heeled or re-sewing a button. If you happen to be a dab hand with a needle and thread, you can do it yourself for little or no cost. For those of us who aren’t but would like to learn check out these <a href="https://www.youtube.com/results?search_query=sewing+for+beginners" target="_blank">tutorials!</a>
-                        <br>Failing that make your local tailor or alteration service your best friend! For a very reasonable price they can re-size, re-style or repair your clothes for you, So not only are you helping to reduce waste you’re also supporting local business.
-                        <br> Not to mention it frees you from having to worry about pesky sizing issues when you find that perfect piece in your local vintage or charity shop.
-                    </p>
+                        <p class="habits">No matter how much care we take of our clothes wear they will eventually succumb to wear and tear. Repairing and upcycling our clothes can significantly extend the life of our favourite pieces while reducing the impact on the environment and also our wallets! Not to mention giving our favourite pieces a new lease of life!
+                            <br>It can be as simple as cutting an old pair of jeans into shorts to completely reworking a dress into something totally different, getting your favourite shoes re-heeled or re-sewing a button. If you happen to be a dab hand with a needle and thread, you can do it yourself for little or no cost. For those of us who aren’t but would like to learn check out these <a href="https://www.youtube.com/results?search_query=sewing+for+beginners" target="_blank">tutorials!</a>
+                            <br> Failing that make your local tailor or alteration service your best friend! For a very reasonable price they can re-size, re-style or repair your clothes for you, So not only are you helping to reduce waste you’re also supporting local business.
+                            <br> Not to mention it frees you from having to worry about pesky sizing issues when you find that perfect piece in your local vintage or charity shop.
+                        </p>
                 </div>
-                <div class="divider d-lg-none mx-auto"></div>
+                    <div class="divider d-lg-none mx-auto"></div>
             </div>
         </section>
     </div>
@@ -175,54 +201,78 @@
             <div class="row">
                 <div class="col bg-color-lookbook">
                     <h2 class="page-title-facts text-center">Lookbook</h2>
-                    <p class="lookbook-intro text-center">Check out our March Lookbook below!
-                        <br>Some of the amazing looks we created with pieces sourced from Vintage and Charity shops around Dublin
-                    </p>
+                        <p class="lookbook-intro text-center">Check out our March Lookbook below!
+                            <br>Some of the amazing looks we created with pieces sourced from Vintage and Charity shops around Dublin
+                        </p>
                 </div>
             </div>
-            
+
             <div class="row lookbook-images-a">
                 <div class="col-md-3">
-                    <img src="assets/images/girl-in-pink-dress.jpg" alt="girl wearing pink dress" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-pink-dress1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-pink-dress1.jpg" alt="girl wearing pink dress" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3 ">
-                    <img src="assets/images/denim-shorts.jpg" alt="girl wearing denim shorts and floral coat" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/denim-shorts1.jpg" data-fancybox>
+                        <img src="assets/images/denim-shorts1.jpg" alt="girl wearing denim shorts and floral coat" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/girl-in-short-dress.jpg" alt="girl wearing short dress" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-short-dress1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-short-dress1.jpg" alt="girl wearing short dress" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/girl-in-white-dress.jpg" alt="girl wearing white dress" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-white-dress1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-white-dress1.jpg" alt="girl wearing white dress" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
             </div>
-            
+
             <div class="row lookbook-images-b">
                 <div class="col-md-3">
-                    <img src="assets/images/girl-in-yellow-dress.jpg" alt="girl wearing yellow dress" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-yellow-dress1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-yellow-dress1.jpg" alt="girl wearing yellow dress" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/pinstrip-pants.jpg" alt="girl wearing pinstrip pants" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/pinstrip-pants1.jpg" data-fancybox>
+                        <img src="assets/images/pinstrip-pants1.jpg" alt="girl wearing pinstrip pants" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/fur-coat-boots.jpg" alt="girl wearing fur coats and boots" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/fur-coat-boots1.jpg" data-fancybox>
+                        <img src="assets/images/fur-coat-boots1.jpg" alt="girl wearing fur coats and boots" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/green-fur-coat.jpg" alt="girl wearing green fur coat" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/green-fur-coat1.jpg" data-fancybox>
+                        <img src="assets/images/green-fur-coat1.jpg" alt="girl wearing green fur coat" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
             </div>
-            
+
             <div class="row lookbook-images-c">
                 <div class="col-md-3 d-none d-sm-block">
-                    <img src="assets/images/girl-in-rose-coat.jpg" alt="girl wearing a floral coat" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-rose-coat1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-rose-coat1.jpg" alt="girl wearing a floral coat" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3 d-none d-sm-block">
-                    <img src="assets/images/girl-in-white-top-skirt.jpg" alt="girl wearing white top and skirt" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-white-top-skirt1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-white-top-skirt1.jpg" alt="girl wearing white top and skirt" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3 d-none d-sm-block">
-                    <img src="assets/images/woman-in-black-dress.jpg" alt="girl wearing black skirt and hat" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/woman-in-black-dress1.jpg" data-fancybox>
+                        <img src="assets/images/woman-in-black-dress1.jpg" alt="girl wearing black skirt and hat" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-3 d-none d-sm-block">
-                    <img src="assets/images/girl-in-red-skirt.jpg" alt="girl wearing red skirt" class="hvr-grow img-thumbnail">
+                    <a href="assets/images/girl-in-red-skirt1.jpg" data-fancybox>
+                        <img src="assets/images/girl-in-red-skirt1.jpg" alt="girl wearing red skirt" class="hvr-grow img-thumbnail">
+                    </a>
                 </div>
             </div>
         </section>
@@ -232,49 +282,49 @@
     <!--Bootstrap grid, cards, container, text-center, mx-auto, button classes used-->
     <div class="container-fluid events-container" id="events">
         <div class="opaque-overlay"> </div>
-        <section class="event">
-            <div class="row">
-                <div class="col">
-                    <h2 class="event-heading text-center">Get Involved!</h2>
-                    <div class="divider-pink mx-auto"></div>
-                    <h4 class="text-center"> Check out some of our amazing events below!</h4>
+            <section class="event">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="event-heading text-center">Get Involved!</h2>
+                            <div class="divider-pink mx-auto"></div>
+                                <h4 class="text-center"> Check out some of our amazing events below!</h4>
+                    </div>
                 </div>
-            </div>
-            
+
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="card mx-auto" style="width: 18rem;">
-                        <img src="assets/images/shirts-on-a-rail.jpg" class="card-img-top" alt="shirts on a clothes rail">
-                        <div class="card-body">
-                            <h5 class="card-title">Swap Shop</h5>
-                            <p class="card-text">Update your wardrobe and while having the craic!</p>
-                            <p><strong>Sunday 19th April, Wigwam Basement</strong></p>
-                            <a href="" class="btn btn-facts">Book Now!</a>
-                        </div>
+                        <img src="assets/images/shirts-on-a-rail1.jpg" class="card-img-top" alt="shirts on a clothes rail">
+                            <div class="card-body">
+                                <h5 class="card-title">Swap Shop</h5>
+                                    <p class="card-text">Update your wardrobe and while having the craic!</p>
+                                    <p><strong>Sunday 19th April, Wigwam Basement</strong></p>
+                                    <a href="" class="btn btn-facts">Book Now!</a>
+                            </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card mx-auto" style="width: 18rem;">
-                        <img src="assets/images/flea-market.jpg" class="card-img-top" alt="market neon sign">
-                        <div class="card-body">
-                            <h5 class="card-title">Vintage Flea Market</h5>
-                            <p class="card-text">Over 60 stalls packed with vintage, retro, vinyl, menswear, womenswear and everything in between.</p>
-                            <p><strong>Sun 26th April, The Workmans Club</strong></p>
-                            <a href="" class="btn btn-facts">More Info</a>
-                        </div>
+                        <img src="assets/images/flea-market1.jpg" class="card-img-top" alt="market neon sign">
+                             <div class="card-body">
+                                <h5 class="card-title">Vintage Flea Market</h5>
+                                    <p class="card-text">Over 60 stalls packed with vintage, retro, vinyl, menswear, womenswear and everything in between.</p>
+                                    <p><strong>Sun 26th April, The Workmans Club</strong></p>
+                                    <a href="" class="btn btn-facts">More Info</a>
+                            </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card mx-auto" style="width: 18rem;">
-                        <img src="assets/images/spools.jpg" class="card-img-top" alt="sewing machine and chevron fabric">
-                        <div class="card-body">
-                            <h5 class="card-title">Sip and Sew</h5>
-                            <p class="card-text">Learn some basic sewing techniques while sipping on your favourite tipple!
-                            </p>
-                            <p><strong> Sat 2nd May, Drop Dead Twice</strong>
-                            </p>
-                            <a href="" class="btn btn-facts">Book Now!</a>
-                        </div>
+                        <img src="assets/images/spools1.jpg" class="card-img-top" alt="sewing machine and chevron fabric">
+                            <div class="card-body">
+                                <h5 class="card-title">Sip and Sew</h5>
+                                    <p class="card-text">Learn some basic sewing techniques while sipping on your favourite tipple!
+                                    </p>
+                                    <p><strong> Sat 2nd May, Drop Dead Twice</strong>
+                                    </p>
+                                    <a href="" class="btn btn-facts">Book Now!</a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -282,43 +332,43 @@
     </div>
 
     <!--Contact-->
-    <!--Bootstrap grid, container, jumbotron, modal, form, text-center, buttons, list-inline classes used-->
+    <!--Bootstrap grid, container, jumbotron, modal, form, text-center, buttons, list-inline classes & fancybox  used-->
     <div class="container-fluid contact-container container-wrapper-contact" id="contact">
         <section class="jumotron text-center contact">
             <h1 class="jumbotron-title-contact">Sign Up to Our Newsletter!</h1>
-            <div class="divider-pink mx-auto"></div>
-            <p>Get updated with news, events, tricks and tips straight to your inbox!</p>
-            <button class="btn btn-lg btn-pink" data-toggle="modal" data-target="#signupmodal">Sign Up!</button>
+               <div class="divider-pink mx-auto"></div>
+                  <p>Get updated with news, events, tricks and tips straight to your inbox!</p>
+                       <button class="btn btn-lg btn-pink" data-toggle="modal" data-target="#signupmodal">Sign Up!</button>
 
             <div class="row">
                 <div class="col social">
                     <h3 class="text-center">Follow us on Social Media</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <a href="">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">You Tube</span>
-                            </a>
-                        </li>
-                    </ul>
+                       <ul class="list-inline">
+                           <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                        <span class="sr-only">You Tube</span>
+                                </a>
+                            </li>
+                        </ul>
                 </div>
             </div>
         </section>
@@ -331,21 +381,21 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Sign Up To Our Newsletter!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                 </div>
                 <div class="modal-body">
                     <p>Keep up-to-date with our news, events, tips and tricks straight to your inbox!</p>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email Address" aria-describedby="emailHelp" required>
-                            <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
-                        </div>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email Address" aria-describedby="emailHelp" required>
+                                <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+                            </div>
 
-                        <button type="submit" class="btn btn-signup pull-right">Sign Up!</button>
-                        <button type="button" class="btn btn-close pull-right" data-dismiss="modal">Close</button>
-                    </form>
+                            <button type="submit" class="btn btn-signup pull-right">Sign Up!</button>
+                            <button type="button" class="btn btn-close pull-right" data-dismiss="modal">Close</button>
+                        </form>
                 </div>
             </div>
         </div>
@@ -369,7 +419,9 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <script src="https://use.fontawesome.com/0cd8b7f464.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
+    </script>
+    
 
 </body>
 
