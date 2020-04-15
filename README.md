@@ -9,7 +9,7 @@ terminolgy such as "Fast Fashion" and "Sustainable Fashion" to describe differen
 and practices of the fashion industry.
 
 With that in mind I decided to build this website to help people gain a better understanding of what these
-terms mean, the effects of Fast Fashion and how Sustainable Fashion can help to counteract 
+terms mean, the effects of Fast Fashion, and how Sustainable Fashion can help to counteract 
 the impact it is having on the planet. Also to build awareness on the subject and to inspire users 
 to make more sustainable choices in a fun and engaging way.
 
@@ -47,19 +47,23 @@ The target demographic of this website includes but is not limited to:
 - Offers clear and concise information without overloading the user
 - Gives them the option to learn more with links to relevant sites
 
-#### **Client Stories**
-"As a user of this site, I want to easily find relevant information on fast fashion & sustainable fashion"
-
-"As a user of this site, I want information on fast/sustaianble fashion that is not preachy"
-
-"As a user of this site, I want inspiration and ideas on what I can do to make a difference"
-
-"As a user of this site, I want to learn about practical ways I can become more sustainable"
-
-"As a user of this site, I want to know what alternatives there are to high street and fast fashion brands"
-
 ---
-#### **Wireframes**
+### **User Stories**
+*"As a user of this site, I want to easily find relevant information on fast fashion & sustainable fashion"*
+
+*"As a user of this site, I want information on fast/sustaianble fashion that is not preachy"*
+
+*"As a user of this site, I want inspiration and ideas on what I can do to make a difference"*
+
+*"As a user of this site, I want to learn about practical ways I can become more sustainable"*
+
+*"As a user of this site, I want to know what alternatives there are to high street and fast fashion brands"*
+
+*"As a user of this site, I would like the option of keeping up to date with relevant information"*
+
+*"As a user of this site, I would like for find a community of like minded people"*
+---
+### **Wireframes**
 As part of the design process wireframes were created for Desktop, Tablet and Mobile screen sizes using [Balsamiq](https://balsamiq.com/)
 
 #### **Desktop**
@@ -121,7 +125,7 @@ Contains copyright information.
 - An interactive gallery that will allow:
 
     * users to submit their own images of 
-     outfits and looks they've created from clothing bought from charity/vintage shops
+      outfits and looks they've created from clothing bought from charity/vintage shops
     * owners to review submissions before they are posted to the site 
     * owners to set criteria for submissons - location, suitability, where it was purchased etc.
 
@@ -156,12 +160,63 @@ The below tools were used at various points throughout the build:
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to test the loading speed of the website
             
 **Manual Testing:**
+
+**Navigation Bar:**
 - Navigation links tested to ensure they worked and that they linked to the correct part of the page
-- Links to external sites & pages tested to ensure they worked correctly and opened in new tabs
-- Sign Up call to action opened modal and email address was required in order to sign up
-- Lookbook images clicked to ensure [fancybox](http://fancyapps.com/fancybox/3/) was working correctly
-- Ran site on Chrome, Mozilla Firefox & Internet Explorer.
-    
+- Each Link was tested to individually at both expanded and collapsed state to ensure they brought the user to the correct part of the website
+- Site title in navigation bar, when clicked, will always return user to the Home page.
+
+**The Facts - Did you Know?:**
+- Link from quote source *Good on You* opens to the correct external site in a new tab
+- Call to action *Learn More* button clicked to ensure it opened the correct external site in a new tab
+- Hover over button to ensure color change
+
+**So What Can We Do? - Charity Shops - Shop Vintage - Repair & Upcycle:**
+- Links to external sites & pages tested to ensure they opened the correct external sites and in a new tab
+
+**Lookbook:**
+- Images clicked to ensure [fancybox](http://fancyapps.com/fancybox/3/) popups opened correctly
+
+**Events:**
+- *Book Now* and *More Info* buttons return to Home page. (site is an imagined site and these are sample events booking is not currently available)
+- Hover over buttons to ensure color change
+
+**Sign Up:**
+- When *Sign Up* call to action button clicked **modal** is triggered
+- Email input in *modal* has **required attribute**
+- *Close* button closes the *modal*
+- Social media icons return to Home page (social media pages do not exist for this site)
+- Hover over buttons to ensure color change
+
+**General:**
+- Ran site on Chrome, Mozilla Firefox, Internet Explorer & Safari.
+
+**Testing User Stories:**
+
+ - *"As a user of this site, I want to easily find relevant information on fast fashion & sustainable fashion"*
+     - This information is available directly below the Home page, in *The Facts* section and each part of *The Facts* section has its own link, so it is easily accessible
+
+- *"As a user of this site, I want information on fast/sustaianble fashion that is not preachy"*
+     - The information is presented in an engaging manner 
+     - Encouraging users to consider alternatives rather than berating or blaming them for being part of the problem
+     - The site is not overloaded with facts and statistics but rather an overview with an option for users to learn more if they wish
+
+- *"As a user of this site, I want inspiration and ideas on what I can do to make a difference"*
+     
+     - The *So What Can We Do?* sections give users a variety of different ways they can makes small changes that make a difference
+
+- *"As a user of this site, I want to learn about practical ways I can become more sustainable"*
+     - The *Charity Shops, Shop Vintage & Repair & Upcycle* sections give users practical ways to become more sustainable
+
+- *"As a user of this site, I want to know what alternatives there are to high street and fast fashion brands"*
+     - The *So What Can We Do?, Charity Shops, Shop Vintage & Repair & Upcycle* sections give users real world alternatives to high street and fast fashion brands
+
+- *"As a user of this site, I would like the option of keeping up to date with relevant information"*
+     - The *Sign Up* section offers the user the option to sign up to the sites newsletter
+
+- *"As a user of this site, I would like for find a community of like minded people"*
+     - The *Events* section promotes events that would be of interest to people interested in making more sustainable fashion choices
+
 ---
 
 ### **Issues and Resolutions**
