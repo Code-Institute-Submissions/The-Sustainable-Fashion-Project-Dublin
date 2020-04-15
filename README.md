@@ -8,9 +8,10 @@ and ethical business practices of the fashion industry has given rise to new
 terminolgy such as "Fast Fashion" and "Sustainable Fashion" to describe different aspects 
 and practices of the fashion industry.
 
-The aim of this site to help people gain a better understanding of what these
+With that in mind I decided to build this website to help people gain a better understanding of what these
 terms mean, the effects of Fast Fashion and how Sustainable Fashion can help to counteract 
-the impact it is having on the planet.
+the impact it is having on the planet. Also to build awareness on the subject and to inspire users 
+to make more sustainable choices in a fun and engaging way.
 
 #### **Business Goals**
 - Define Fast Fashion and give users a better understanding of what it means
@@ -49,7 +50,7 @@ The target demographic of this website includes but is not limited to:
 #### **Client Stories**
 "As a user of this site, I want to easily find relevant information on fast fashion & sustainable fashion"
 
-"As a user of this site, I want to learn more on fast/sustaianble fashion that is not preachy"
+"As a user of this site, I want information on fast/sustaianble fashion that is not preachy"
 
 "As a user of this site, I want inspiration and ideas on what I can do to make a difference"
 
@@ -133,12 +134,16 @@ Contains copyright information.
 - [Bootstrap 4](https://getbootstrap.com/) and [BootstrapCDN](https://www.bootstrapcdn.com/) - To simplify the structure and make the website responsive.
 - [Google Fonts](https://fonts.google.com/) - Oswald & Poppins styles
 - [Font Awesome](https://fontawesome.com/) - for social media icons
-- [jQuery](https://code.jquery.com/) - for navbar and modal
+- [jQuery](https://code.jquery.com/) - for navbar and modal and fancybox
 - [Popper.js](https://popper.js.org/) - for navbar and modal
+- [fancybox](http://fancyapps.com/fancybox/3/) - for pop out Lookbook images
+- [hover.css](https://ianlunn.github.io/Hover/) - for grow effect on Lookbook images
 - [Gitpod](https://gitpod.io/) - IDE for local development
 - [Github](https://github.com/) - version control
 - [Github Pages](https://pages.github.com/) - for deployment of the website
 
+**Other Resources Used**
+- [cdnjs](https://cdnjs.com/) - for [hover.css](https://ianlunn.github.io/Hover/) & [fancybox](http://fancyapps.com/fancybox/3/) libaries
 - [HTML Formatter](https://htmlformatter.com/) - used to format HTML code
 ---
 ## **Testing**
@@ -148,11 +153,13 @@ The below tools were used at various points throughout the build:
 - [W3C Markup Validation](https://validator.w3.org/#validate_by_input) - to validate HTML
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - to vaildate CSS Code
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln/related) to identify any overflow issues
-
-Manual Testing:
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to test the loading speed of the website
+            
+**Manual Testing:**
 - Navigation links tested to ensure they worked and that they linked to the correct part of the page
-- Links to external sites & pages tested to ensure they worked correctly and opened in new tabs.
+- Links to external sites & pages tested to ensure they worked correctly and opened in new tabs
 - Sign Up call to action opened modal and email address was required in order to sign up
+- Lookbook images clicked to ensure [fancybox](http://fancyapps.com/fancybox/3/) was working correctly
 - Ran site on Chrome, Mozilla Firefox & Internet Explorer.
     
 ---
@@ -179,6 +186,9 @@ The following bugs were identified and rectified during the build process.
 - Images and paragraphs in The Facts section not displaying in the desired order:
    - Resolved by adding Bootstrap **order class** - ```order-lg-2``` & ```order-lg-1``` to relevant images and paragraphs
 
+- When I ran [Lighthouse](https://developers.google.com/web/tools/lighthouse) it indicated that some of the images were increasing the load time of the page.
+   - Reduced image file sizes to decrease load time
+
 - Heading in Welcome section not rendering correctly on Internet Explorer:
    - Not yet resolved
 ---
@@ -191,7 +201,6 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 4. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
 5. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
  
-
 #### **How to run this project locally**
 
 To clone this project from GitHub:
@@ -220,6 +229,9 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 - Text in **Vintage** paragraph:
    - taken from [Readers Digest](https://www.readersdigest.co.uk/lifestyle/fashion-beauty/5-reasons-to-shop-vintage) website.
 
+- In **Events** section:
+   - Swap Shop & Sip and Sew ideas taken from [Swapsies](https://www.swapsies.ie/) website.
+
 ### **Media**
 - All images taken from:
    - [Unsplash](https://unsplash.com/)
@@ -228,6 +240,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 I would like to thank everyone on the code institute slack channels. 
 
 My mentor [Adegbenga Adeye](https://github.com/deye9)
+
 ---
 ## **Disclaimer**
 All images and content on this website is for educational purposes only
