@@ -21,13 +21,13 @@ body {
 }
 
  .navbar .navbar-toggler {
-     border: 0;
+    border: 0;
  }
 
  .navbar .nav-link {
-     font-family: "Oswald", sans-serif; 
-     color: #fff5ee;
-     font-weight: 300;
+    font-family: "Oswald", sans-serif; 
+    color: #fff5ee;
+    font-weight: 300;
  }
 
 /*-------Colors------*/
@@ -48,10 +48,12 @@ body {
     background-color: #fff5ee;
 }
 
-/*-------Welcome------*/
+/*-------Welcome/Home------*/
+
 
 .welcome-container {
     height: 100vh;
+
 /*--Code taken from CSS Tricks--*/
     background: url("../images/fur-coats1.jpg") no-repeat bottom left; 
     -webkit-background-size: cover;
@@ -85,15 +87,6 @@ body {
     padding-bottom: 10px; 
     font-weight: 800;
     margin-bottom: 0;
-}
-
-.divider-pink {
-    width: 75px;
-    height: 0;
-    border: 3px solid #ff1493;
-    margin-bottom: 10px;
-    margin-top: 7px;
-    border-radius: 3px;
 }
 
 .intro {
@@ -179,13 +172,23 @@ h6 {
     margin-right: 15px;
 }
 
+/*-----Dividers---*/
 
 .divider {
-  width: 75px;
-  height: 0;
-  border: 3px solid #5b062d;
-  margin-top: 20px;
-  border-radius: 3px;
+    width: 75px;
+    height: 0;
+    border: 3px solid #5b062d;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.divider-pink {
+    width: 75px;
+    height: 0;
+    border: 3px solid #ff1493;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border-radius: 3px;
 }
 
 /*-------Images-----*/
@@ -232,7 +235,7 @@ h6 {
 
 .img-thumbnail {
     border-radius: 1px;
-    border: 	3px solid #ff1493;
+    border: 3px solid #ff1493;
     display: flex;
     max-height: 100%;
     max-width: 100%;
@@ -260,7 +263,7 @@ h6 {
     justify-content: center;
 /*--End of Bootstrap4 Code--*/
    
-    position: relative;
+    position: relative; 
     border-bottom: 3px solid #ff1493;
 }
 
