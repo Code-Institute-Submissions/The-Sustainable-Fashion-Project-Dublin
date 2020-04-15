@@ -17,7 +17,7 @@ to make more sustainable choices in a fun and engaging way.
 - Define Fast Fashion and give users a better understanding of what it means
 - Highlight and raise awareness of the environmental and ethical impact of Fast Fashion
 - To promote sustainability in the fashion industry
-- To encourage users to think about impact of the choices they make when buying clothes
+- To encourage users to think about impact of the choices they make when shopping for fashion
 - To encourage users to change the way they shop to lessen the impact on the planet
 - To offer tangible alternatives to users 
 
@@ -29,14 +29,14 @@ to make more sustainable choices in a fun and engaging way.
 The target demographic of this website includes but is not limited to:
  - those with an interest in Fashion
  - those who are socially and enviromentally conscious
- - those who are interested in learning more about sustainable fashion
+ - those who are interested in learning more about Sustainable Fashion
  - those interested in learning more about Fast Fashion
  - those who are would like to make more sustainable fashion choices
  - those who are looking for ways and ideas on how they can change their shopping habits
 
 **Users of this site are searching for:**
- - Clear and easily accessible information on fast fashion
- - Clear and easily accessible information on sustainable fashion
+ - Clear and easily accessible information on Fast Fashion
+ - Clear and easily accessible information on Sustainable Fashion
  - Alternative shopping choices to High Street stores/Fast Fashion Brands
  - Real world locations they can shop sustainably
 
@@ -61,8 +61,10 @@ The target demographic of this website includes but is not limited to:
 
 *"As a user of this site, I would like the option of keeping up to date with relevant information"*
 
-*"As a user of this site, I would like for find a community of like minded people"*
+*"As a user of this site, I would like to find a community of like minded people"*
+
 ---
+
 ### **Wireframes**
 As part of the design process wireframes were created for Desktop, Tablet and Mobile screen sizes using [Balsamiq](https://balsamiq.com/)
 
@@ -84,8 +86,8 @@ The Home section features a full browser height background image to capture the 
 The website title is overlayed on the image with a subject line enticing the reader to explore the site further.
 
 #### **The Facts**
-An image to draw the users attention and a paragraph with some of the definition of fast fashion and facts about the industry. 
-It also contains a call-to-action button for users who would like to more detailed information on the fast fashion industry and its ethical and environmental impact it makes.
+An image to draw the users attention and a paragraph with some of the definition of Fast Fashion and facts about the industry. 
+It also contains a call-to-action button for users who would like to more detailed information on the Fast Fashion industry and the ethical and environmental impact it makes.
 
 A second image and paragraph with an overview of what changes users can make to their own habits to lessen their impact on the environment. 
 Including links to relevant sites and resourses.
@@ -105,6 +107,7 @@ Includes a link to sewing tutorials for beginners.
 #### **Lookbook**
 Photo gallery to showcase looks created using pieces of clothing bought in vintage/charity shops.
 The purpose of the gallery is the hightlight the fact that users don't need to buy new clothes to create stylish, unique and on trend looks.
+Fancybox used to make images popup.
 
 #### **Events**
 List of events users of the site would have an interest in attending.
@@ -121,7 +124,7 @@ Contains copyright information.
 
 ---
 ### **Future Features to be Implemented**
-- Add pages for Projects based on other major cities in Ireland (Galway, Cork, Belfast) initially, with a view to setting up projects for UK & European cities in the long term.
+- Add pages for Projects based in other major cities in Ireland (Galway, Cork, Belfast) initially, with a view to setting up projects for UK & European cities in the long term.
 - An interactive gallery that will allow:
 
     * users to submit their own images of 
@@ -132,7 +135,9 @@ Contains copyright information.
 - A curated directory of sites, articles, blogs and resources users of the site would be interested in.
 - Submissions from hosts of relevant events that will be promoted on the site.
 - A News section that can be updated easily and regularly by owners.
+
 ---
+
 ## **Technologies Used**
 - HTML & CSS programming languages
 - [Bootstrap 4](https://getbootstrap.com/) and [BootstrapCDN](https://www.bootstrapcdn.com/) - To simplify the structure and make the website responsive.
@@ -143,7 +148,7 @@ Contains copyright information.
 - [fancybox](http://fancyapps.com/fancybox/3/) - for pop out Lookbook images
 - [hover.css](https://ianlunn.github.io/Hover/) - for grow effect on Lookbook images
 - [Gitpod](https://gitpod.io/) - IDE for local development
-- [Github](https://github.com/) - version control
+- [Github](https://github.com/) - version control & repository
 - [Github Pages](https://pages.github.com/) - for deployment of the website
 
 **Other Resources Used**
@@ -163,11 +168,11 @@ The below tools were used at various points throughout the build:
 
 **Navigation Bar:**
 - Navigation links tested to ensure they worked and that they linked to the correct part of the page
-- Each Link was tested to individually at both expanded and collapsed state to ensure they brought the user to the correct part of the website
+- Each Link was tested individually at both expanded and collapsed states to ensure they brought the user to the correct part of the website
 - Site title in navigation bar, when clicked, will always return user to the Home page.
 
 **The Facts - Did you Know?:**
-- Link from quote source *Good on You* opens to the correct external site in a new tab
+- Link for quote source *Good on You* opens to the correct external site in a new tab
 - Call to action *Learn More* button clicked to ensure it opened the correct external site in a new tab
 - Hover over button to ensure color change
 
@@ -184,9 +189,8 @@ The below tools were used at various points throughout the build:
 **Sign Up:**
 - When *Sign Up* call to action button clicked **modal** is triggered
 - Email input in *modal* has **required attribute**
-- *Close* button closes the *modal*
 - Social media icons return to Home page (social media pages do not exist for this site)
-- Hover over buttons to ensure color change
+- Hover over buttons & social media icons to ensure color change
 
 **General:**
 - Ran site on Chrome, Mozilla Firefox, Internet Explorer & Safari.
@@ -198,12 +202,11 @@ The below tools were used at various points throughout the build:
 
 - *"As a user of this site, I want information on fast/sustaianble fashion that is not preachy"*
      - The information is presented in an engaging manner 
-     - Encouraging users to consider alternatives rather than berating or blaming them for being part of the problem
+     - Encouraging users to consider alternatives rather than berating or guilting them for being part of the problem
      - The site is not overloaded with facts and statistics but rather an overview with an option for users to learn more if they wish
 
 - *"As a user of this site, I want inspiration and ideas on what I can do to make a difference"*
-     
-     - The *So What Can We Do?* sections give users a variety of different ways they can makes small changes that make a difference
+     - The *So What Can We Do?* sections give users an overview of different ways they can makes small changes that make a difference
 
 - *"As a user of this site, I want to learn about practical ways I can become more sustainable"*
      - The *Charity Shops, Shop Vintage & Repair & Upcycle* sections give users practical ways to become more sustainable
@@ -214,13 +217,13 @@ The below tools were used at various points throughout the build:
 - *"As a user of this site, I would like the option of keeping up to date with relevant information"*
      - The *Sign Up* section offers the user the option to sign up to the sites newsletter
 
-- *"As a user of this site, I would like for find a community of like minded people"*
+- *"As a user of this site, I would like to find a community of like minded people"*
      - The *Events* section promotes events that would be of interest to people interested in making more sustainable fashion choices
 
 ---
 
 ### **Issues and Resolutions**
-The following bugs were identified and rectified during the build process.
+The following issues were identified and rectified during the build process.
 
 - Background images not displaying:
    - File path was incorrect
