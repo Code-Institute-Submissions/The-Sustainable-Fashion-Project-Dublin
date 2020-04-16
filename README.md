@@ -188,7 +188,10 @@ The below tools were used at various points throughout the build:
 
 **Sign Up:**
 - When *Sign Up* call to action button clicked **modal** is triggered
-- Email input in *modal* has **required attribute**
+- Tried to submit form without any or valid email address:
+        - Email input in *modal* has **required attribute** 
+        - Email must have correct format *myemail@email.com*
+        - Error messages appear if email is not entered or email is not the correct format
 - Social media icons return to Home page (social media pages do not exist for this site)
 - Hover over buttons & social media icons to ensure color change
 
@@ -218,7 +221,7 @@ The below tools were used at various points throughout the build:
      - The *Sign Up* section offers the user the option to sign up to the sites newsletter
 
 - *"As a user of this site, I would like to find a community of like minded people"*
-     - The *Events* section promotes events that would be of interest to people interested in making more sustainable fashion choices
+     - The *Events* section promotes events that would be of interest to people interested in making more sustainable fashion choices and opportunities to meet like minded people in a social setting
 
 ---
 
@@ -235,7 +238,7 @@ The following issues were identified and rectified during the build process.
 -  When navbar dropdown menu was activated and link clicked, the menu didn't collapse up again:
    - Resolved by adding ```data-toggle="collapse" data-target=".navbar-collapse.show"``` to each list item
 
-- Cards in the Events section pushing down below background image and into  sections below it on mobile screen sizes:
+- Cards in the Events section pushing down below background image and overlapping the sections below it on smaller screen sizes:
    - Resolved by removing set ```height: 100vh``` on background image
 
 - The Facts section not displaying correctly at tablet screen size:
@@ -246,6 +249,9 @@ The following issues were identified and rectified during the build process.
 
 - When I ran [Lighthouse](https://developers.google.com/web/tools/lighthouse) it indicated that some of the images were increasing the load time of the page.
    - Reduced image file sizes to decrease load time
+
+- On extra large widescreen (&#8805;1500px) the text in the facts section was hugging the top of the <div>
+   - Media query added to push down content at that screen size
 
 - Heading in Welcome section not rendering correctly on Internet Explorer:
    - Not yet resolved
