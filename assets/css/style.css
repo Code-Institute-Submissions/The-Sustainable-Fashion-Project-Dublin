@@ -219,10 +219,7 @@ h6 {
 /*-------Images-----*/
 
 
-.slowdown-image,
-.vintage-image,
-.amazingfashion-image,
-.repair-image {
+.facts-image {
     display: flex;
     max-height: 100%;
     max-width: 100%;
@@ -416,5 +413,11 @@ h6 {
     font-weight: 100;
     font-size: 18px;
     text-align: center;
+    }
+}
+
+@media screen and (min-width: 1500px) {  
+    .subtitle {
+        padding-top: 75px;
     }
 }
